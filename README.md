@@ -2,66 +2,60 @@
 
 **Chord detection, playback, and music practice for Android.**
 
-Chord AI is a native Android application developed by **BRYGAR**. It brings audio analysis, chord visualization, recording, and practice tools into one Material 3 interface.
+Chord AI is a native Android application developed by **BRYGAR**. It combines audio analysis, chord visualization, recording, and music practice tools in a Material 3 interface.
 
-> **Development status:** v1.19.2 is the first GitHub pre-release. Features and behavior may change, and testing builds may contain bugs.
+> **Current documented version: v1.20.1.** Chord AI is under active development. Release builds may still contain bugs.
 
 ## Features
 
 - Analyze supported local audio files and imported audio sources.
 - Display detected chords alongside playback and a navigable waveform.
-- Choose between **Basic** and **Precise** chord presentations.
-- View chord diagrams and explore supported instrument voicings.
-- Adjust playback pitch and speed, including linked adjustments, and practice with A–B loops.
+- Switch between **Basic** and **Precise** chord detection modes.
+- Explore chord diagrams and supported instrument voicings.
+- Adjust playback pitch and speed, and practice with A–B loops.
 - Record audio with a separate live chord card, then analyze the completed recording.
-- Browse saved analyses in the Library, with search and favorites.
-- Use built-in tuner and metronome tools.
-- Choose light, dark, or system appearance.
+- Browse saved analyses in the Library.
+- Access tuner and metronome utilities.
+- Use light, dark, or system appearance.
 
-Some features depend on device permissions, Android version, and source compatibility.
+Availability of features may vary by build, Android version, permissions, and source compatibility.
 
 ## Download and install
 
-Open [GitHub Releases](https://github.com/ZeBry09/Chord-AI/releases), select **v1.19.2**, and download the **testing APK** attached to the pre-release. Open the APK on an Android device and follow Android's installation prompts.
+Visit [GitHub Releases](https://github.com/ZeBry09/Chord-AI/releases) and choose the release you want to install. Download its attached **APK**, open it on your Android device, and follow Android's installation prompts.
 
-Only install APKs from a source you trust. Android may ask you to allow installation from the app used to open the file.
+Only install APKs from sources you trust. GitHub releases distribute the APK; **AAB files are not included**.
 
-**The APK is for installation.** The Android App Bundle (AAB) is not distributed in this GitHub release.
+## Software updates
 
-## What's new in v1.19.2
+The **Software Update** screen checks GitHub Releases when opened. It can optionally include pre-release versions, display available release notes, and offer an APK download button for a release that includes a downloadable APK.
 
-Recording waveforms no longer display live chord overlays. The **separate live chord card remains active**, and final chord analysis after stopping a recording is preserved.
+## Latest changes: v1.20.1
 
-This is Chord AI's **first GitHub pre-release**.
+- Refined light-mode selection colors for clearer selected states.
+- Renamed **More links** to **Homepage** and updated the destination to the [BRYGAR homepage](https://brygar.itsbrygar.chatgpt.site/).
+- Added [BRYGAR on YouTube](https://youtube.com/@BRYGAROfficial) to the social icons row.
 
-See [CHANGELOG.md](CHANGELOG.md) for release notes.
+Previous release **v1.20.0** introduced GitHub-powered software update checks, optional pre-release discovery, release notes, and APK downloads.
+
+See the full [changelog](CHANGELOG.md).
 
 ## Building from source
 
-The Android project is written in Kotlin and Jetpack Compose and uses Gradle. When the full source is published:
+The Android project uses Kotlin, Jetpack Compose, and Gradle. Once the full project source is published, open it in Android Studio, sync Gradle, and build for an Android device or emulator.
 
-1. Clone this repository.
-2. Open the project in Android Studio.
-3. Let Gradle sync and install the required Android SDK components.
-4. Build and run the app on an Android device or emulator.
-
-**Important:** The full application source is not yet committed to this repository. The current repository documentation does not guarantee that a source checkout can build the app. The original project also references model assets whose redistribution rights have not been established. Do not publish those extracted weights without appropriate permission.
+**Source availability:** The complete buildable application source has not been committed to this repository yet. Documentation and release APKs do not constitute a complete source checkout. Some model assets have unresolved redistribution permissions and should not be uploaded without appropriate rights.
 
 ## Privacy and permissions
 
-The app uses local storage for saved app data and requests device permissions for features such as microphone recording and importing audio. Online imports, including YouTube-related functionality, may contact external services. Consult the app's privacy policy and Android permission prompts for details.
+The app stores local application data and may request permissions for microphone recording and importing audio. Online import features may contact external services. Review Android permission prompts and the application's privacy policy for details.
 
 ## Licensing and third-party assets
 
-**No repository-wide open-source license is granted at this time.** Third-party libraries, fonts, icons, and other components retain their own licenses.
-
-The extracted chord-detection model weights documented in the supplied project are **not original to this project**. Their redistribution rights have not been established. This repository is not affiliated with or endorsed by the original model/app developer.
-
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for further details.
+**No repository-wide open-source license is currently granted.** Third-party components retain their own terms. Redistribution rights for extracted chord-detection model weights have not been established. See [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Feedback
 
-Found a bug or have a feature request? Open an [issue](https://github.com/ZeBry09/Chord-AI/issues) with the app version, device, Android version, steps to reproduce, and relevant screenshots or logs (without personal information).
+Use [GitHub Issues](https://github.com/ZeBry09/Chord-AI/issues) to report bugs or request improvements. Include the app version, device model, Android version, and reproduction steps where applicable. Do not post private audio, credentials, or personal data.
 
-**Developer:** BRYGAR  
-**Contact:** brygar.official@gmail.com
+**Developed by [BRYGAR](https://brygar.itsbrygar.chatgpt.site/).**
