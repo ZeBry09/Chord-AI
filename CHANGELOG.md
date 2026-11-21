@@ -1,17 +1,34 @@
 # Changelog
 
-## v1.19.2 (First GitHub pre-release)
+## v1.20.1 - UI and social updates
 
 ### Changed
-- Removed live chord overlays from recording waveforms.
-- Recording waveforms remain focused on amplitude and timing.
+- Refined light-mode selection colors to make selected states clearer.
+- Renamed **More links** to **Homepage**.
+- Updated the Homepage URL to https://brygar.itsbrygar.chatgpt.site/.
+
+### Added
+- Added the official BRYGAR YouTube channel (https://youtube.com/@BRYGAROfficial) to the social icons row.
+
+## v1.20.0 - GitHub update integration
+
+### Added
+- The Software Update screen checks GitHub for available releases when opened.
+- Optional inclusion of GitHub pre-releases in update checks.
+- In-app display of release notes.
+- APK download button for available releases.
+
+## v1.19.2 - First GitHub pre-release
+
+### Changed
+- Removed live chord overlays from recording waveforms, keeping the waveform visually cleaner.
 
 ### Unchanged
-- The separate live chord detection card continues to display live chords.
-- Final analysis after stopping a recording remains available.
+- The separate live chord detection card remains active.
+- Final analysis after recording remains available.
 
-### Release notes
+### Distribution
 - First GitHub pre-release for Android testing.
-- The release download is the testing APK, not an AAB.
+- APK download only; AAB is not distributed through GitHub Releases.
 
-For older internal version history, consult the application's in-app version history or the original source archive when available.
+For earlier internal version history, refer to the app's in-app history when available.
